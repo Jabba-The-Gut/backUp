@@ -22,4 +22,4 @@ If the mode is manual, the user can manually backup /home. The auto mode is for
 automated backups with the cron-Daemon. It can be chosen between full and
 incremental backup. All logs are stored in /BackUpLog in [path], fatal errors are logged
 in "$HOME"/Desktop/backupscript_error_log.txt
-
+ 
