@@ -7,7 +7,8 @@ with cron-Daemon on linux.
 To automate the script, configure a cron-job to your needs and call the script
 in mode = "auto"
 
-# Head of scipt:
+### Head of scipt:
+```
 Programm: ./backup.sh
 Call: ./backup.sh [mode] [scope] [path]
 [mode]  "auto" --> mode used for automated backups with cron-Daemon
@@ -22,4 +23,5 @@ If the mode is manual, the user can manually backup /home. The auto mode is for
 automated backups with the cron-Daemon. It can be chosen between full and
 incremental backup. All logs are stored in /BackUpLog in [path], fatal errors are logged
 in "$HOME"/Desktop/backupscript_error_log.txt
+``` 
  
